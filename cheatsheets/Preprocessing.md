@@ -163,7 +163,35 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 result = seasonal_decompose(data['column_name'], model='additive', freq=seasonal_period)
 ```
 
-## 8. Preprocessing Effectiveness Tests
+## 8. Handling Outliers
+```python
+data.clip(0,1) # 0 = lower boundary, 1 = higher boundary
+```
+
+## 9. Feature Importance
+The importance of a feature can be estimated by looking at coefficient of a feature after training.
+
+### Linear Regression
+```python
+from sklearn.linear_model import LinearRegression
+
+model = LinearRegression().fit(X, y)
+importance = model.coef_
+```
+
+### Decisions Trees / Random Forests
+```python
+from sklearn.ensemble import RandomForestRegressor
+
+model = RandomForestRegressor().fit(X, y)
+importance = model.feature_importances_
+```
+
+And others ...
+
+**Note:** Feature importance can be highly dependent on the specific model and its parameters, so it's often a good idea to look at feature importance across multiple models and/or with different model parameters.
+
+## 10. Preprocessing Effectiveness Tests
 
 ### Model Imputation methods Test
 Tests need to be done to avoid possible overfitting

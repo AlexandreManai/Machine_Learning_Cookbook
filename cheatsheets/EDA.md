@@ -83,6 +83,11 @@ filtered_entries = (abs_z_scores < 3)
 new_data = data[filtered_entries]
 ```
 
-## 10. Feature Engineering ( as required)
+## 10. Skewness
+```python
+data.skew() # only for numeric data
+```
+
+## 11. Feature Engineering ( as required)
 
 **Remark**: Remember, the exact EDA process can differ based on the specifics of your dataset and what you're interested in investigating. This is just a generic cheat sheet to get started. Be sure to replace 'column_name', 'column1', and 'column2' with your actual column names.
