@@ -13,7 +13,7 @@ This is not just a tutorial or a guide, it's a celebration of machine learning a
 1. Linear Regression - Boston Housing
 2. Logistic Regression - Titanic Survival
 3. Decision Tree - Iris Species
-4. Random Forest - Wine Quality
+4. Random Forest - White Wine Quality
 5. Support Vector Machine - Breast Cancer Diagnosis
 6. Naive Bayes - Spam Classification
 7. K-Nearest Neighbors - Glass Identification

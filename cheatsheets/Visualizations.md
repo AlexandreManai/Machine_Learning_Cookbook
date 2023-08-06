@@ -31,3 +31,10 @@ for k, v in numeric_data.items():
     index += 1
 plt.tight_layout(pad=.4, w_pad=.5, h_pad=1)
 ```
+
+## Confusion Matrix
+```python
+cf_matrix = confusion_matrix(y_test, y_pred)
+sns.heatmap(cf_matrix/np.sum(cf_matrix), annot=True, 
+            fmt='.2%', cmap='Blues')
+```
