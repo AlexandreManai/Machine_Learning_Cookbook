@@ -111,7 +111,7 @@ data.skew() # only for numeric data
 
 **Definition:** Multicollinearity arises when two or more independent variables in the regression model are highly correlated. This can make it difficult to determine the individual effect of predictors on the response variable.
 
-### Detecting with VIF (Variance Inflation Factor):
+### Detecting with VIF (Variance Inflation Factor)
 
 - VIF < 5: Generally okay
 - 5 =< VIF =< 10: Moderate
