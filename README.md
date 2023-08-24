@@ -19,15 +19,12 @@ This is not just a tutorial or a guide, it's a celebration of machine learning a
 | 5   | Support Vector Machine                         | Breast Cancer Diagnosis      |
 | 6   | Naive Bayes                                    | Spam Classification          |
 | 7   | K-Nearest Neighbors                            | Glass Identification         |
-| 8   | K-Means Clustering                             | Mall Customers               |
-| 9   | Hierarchical Clustering                        | Wholesale Customers          |
-| 10  | Principal Component Analysis                   | MNIST                        |
-| 11  | Neural Networks with PyTorch                   | Fashion MNIST                |
-| 12  | Convolutional Neural Networks with PyTorch     | CIFAR-10                     |
-| 13  | Recurrent Neural Networks with PyTorch         | Time Series                  |
-| 14  | Long Short-Term Memory with PyTorch            | Sentiment Analysis           |
-| 15  | Autoencoders with PyTorch                      | MNIST (denoising)            |
-| 16  | GAN (Generative Adversarial Networks) with PyTorch | CelebA (face generation) |
+| 8  | Neural Networks with PyTorch                   | Fashion MNIST                |
+| 9  | Convolutional Neural Networks with PyTorch     | CIFAR-10                     |
+| 10  | Recurrent Neural Networks with PyTorch         | Time Series                  |
+| 11  | Long Short-Term Memory with PyTorch            | Sentiment Analysis           |
+| 12  | Autoencoders with PyTorch                      | MNIST (denoising)            |
+| 13  | GAN (Generative Adversarial Networks) with PyTorch | CelebA (face generation) |
 
 
 ## Before You Begin 🥣
