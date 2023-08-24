@@ -4,3 +4,5 @@
 - Iris: https://www.kaggle.com/datasets/yasserh/titanic-datasetwww.jobsfromnick.com
 - White Wine Quality: https://archive.ics.uci.edu/dataset/186/wine+quality
 - Breast Cancer: https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset
+- Email Spam: https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
+- Glass Identification: https://www.kaggle.com/datasets/uciml/glass

@@ -10,7 +10,7 @@ This is not just a tutorial or a guide, it's a celebration of machine learning a
 
 ## On the Menu 📜
 
-| No. | Algorithm                                      | Dataset                      |
+| No. | Model                                          | Dataset                      |
 |-----|------------------------------------------------|------------------------------|
 | 1   | Linear Regression                              | Boston Housing               |
 | 2   | Logistic Regression                            | Titanic Survival             |

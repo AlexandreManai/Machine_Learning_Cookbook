@@ -38,3 +38,8 @@ cf_matrix = confusion_matrix(y_test, y_pred)
 sns.heatmap(cf_matrix/np.sum(cf_matrix), annot=True, 
             fmt='.2%', cmap='Blues')
 ```
+
+## Value Counts
+```python
+data['column'].value_counts().plot(kind='bar')
+```
